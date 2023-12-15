@@ -1,3 +1,14 @@
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
 # Prerequisites
 *.d
 
@@ -30,3 +41,15 @@
 *.exe
 *.out
 *.app
+
+# Python Cache
+**/__pycache__
+
+# Checkpoint Files
+*.ckpt
+*.pth
+*.onnx
+*.pb
+
+# jupyter
+.ipynb_checkpoints
