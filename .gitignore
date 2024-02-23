@@ -53,3 +53,6 @@
 
 # jupyter
 .ipynb_checkpoints
+
+# pycharm
+*.idea
